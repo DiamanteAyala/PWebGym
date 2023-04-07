@@ -54,7 +54,7 @@ li a.active, li a:hover{
     float: left;
 }
 section{
-    background: url(Arnold.jpg) no-repeat;
+    background: url(../imagenes/Arnold.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 140vh;
