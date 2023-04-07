@@ -1,2 +1,0 @@
-# PWebGym
-Proyecto web gimnasio 
