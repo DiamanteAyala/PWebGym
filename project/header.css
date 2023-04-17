@@ -54,7 +54,7 @@ li a.active, li a:hover{
     float: left;
 }
 section{
-    background: url(../images/Arnold.jpg) no-repeat;
+    background: url(../PWebGym/project/images/Arnold.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 220vh;
