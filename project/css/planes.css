@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: antiquewhite;
+    display: flex;
+    width: 1000px;
+    height: 100vh;
+    margin:  100px auto;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+}
+.caja {
+    border-radius: 10px; /* Bordes redondeados */
+    height: 20vh;
+    padding: 10px; /* Espaciado interno */
+    margin: auto; /* Espaciado externo */
+    background-color: #f2f2f2; /* Color de fondo */
+    width: 900px;
+    box-sizing: border-box; /* Incluir borde en el ancho */
+    position: relative; /* Agregado para crear un contexto de posicionamiento relativo */
+}
+.plantomi {
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    display: inline-block;
+}
+.planseba{
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    display: inline-block;
+}
+.planbas {
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    display: inline-block;
+}
+
+.preciotomi {
+    position: absolute;
+    bottom: 10px;
+    width: 270px;
+    text-align: center; /* Añadido para centrar horizontalmente el contenido */
+    display: inline-block;
+}
+
+.preciotomi h2 {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.preciotomi button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Agregado para dar un poco de espacio entre el título y el botón */
+}
+.precioseba {
+    position: absolute;
+    bottom: 10px;
+    width: 270px;
+    text-align: center; /* Añadido para centrar horizontalmente el contenido */
+    display: inline-block;
+}
+
+.precioseba h2 {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.precioseba button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Agregado para dar un poco de espacio entre el título y el botón */
+}
+
+.preciobas {
+    position: absolute;
+    bottom: 10px;
+    width: 270px;
+    text-align: center; /* Añadido para centrar horizontalmente el contenido */
+    display: inline-block;
+}
+
+.preciobas h2 {
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.preciobas button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 20px; /* Agregado para dar un poco de espacio entre el título y el botón */
+}
+
+.desctomi {
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    float: left;
+}
+.descseba {
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    float: left;
+}
+.descbas {
+    margin: 10px;
+    height: 16vh;
+    background-color: transparent;
+    width: 270px;
+    float: left;
+}
