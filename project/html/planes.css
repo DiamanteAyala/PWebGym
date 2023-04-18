@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
-
+.home {
+    background-color: #4CAF50;
+}
 .container {
-    background-color: antiquewhite;
     display: flex;
     width: 1000px;
     height: 100vh;
-    margin:  100px auto;
+    margin: auto;
     justify-content: center;
     align-items: center;
 
@@ -17,7 +18,7 @@
 }
 .caja {
     border-radius: 10px; /* Bordes redondeados */
-    height: 20vh;
+    height: 21vh;
     padding: 10px; /* Espaciado interno */
     margin: auto; /* Espaciado externo */
     background-color: #f2f2f2; /* Color de fondo */
@@ -26,21 +27,21 @@
     position: relative; /* Agregado para crear un contexto de posicionamiento relativo */
 }
 .plantomi {
-    margin: 10px;
+    margin: auto;
     height: 16vh;
     background-color: transparent;
     width: 270px;
     display: inline-block;
 }
 .planseba{
-    margin: 10px;
+    margin: auto;
     height: 16vh;
     background-color: transparent;
     width: 270px;
     display: inline-block;
 }
 .planbas {
-    margin: 10px;
+    margin: auto;
     height: 16vh;
     background-color: transparent;
     width: 270px;

@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --colortextos: #777777;
+    --colorbotones: #8c2574;
+    --paddingsecciones: 60px 0;
+    --marginelementos: 40px;
+    --colorTitulos: #ffe70f;
+}
+
+
+body{
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: #ffffff;
+}
+
+
+.contenedor{
+    background-color: rgb(251, 255, 0);
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    padding: var(--paddingsecciones);
+}
+
+/*menu*/
+
+.menu-navegacion{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    border-bottom: 4px solid  rgb(113, 114, 58);
+}
+
+.logo{
+    width: 100px;
+    height: 75px;
+}
+
+.logo img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.enlaces li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    bottom: 100px;
+    
+}
+
+.enlaces a{
+    text-decoration: none;
+    padding-left: 10px;
+}
+.botonn{
+    background-color: #000000;
+    border: none;
+    border-radius: 20px;
+    color: #ffee00;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    margin-left: 30px;
+    cursor: pointer;
+  }
+/*Pie de Pagina*/
+.grupo-1{
+    background-color: #272620;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content:space-around;
+}
+.boxredes {
+    height: 80px;
+}
+.grupo-1 .boximg figure img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 75px;
+    height: 70px;
+}
+.titulos1 {
+    color: #ffea00;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.titulos2 {
+    color: #ffea00;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.boxmarginnos, .terminos{
+    color: #ffea00;
+    margin-bottom: 5px;
+}
+.boxmarginnos, .acercade {
+    color: #ffea00;
+}
+
+.grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    line-height: 45px;
+    color: #ffea00;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    border-radius: 100px;
+    transition: all 300ms ease;
+}
+.grupo-1 .red-social a:hover{
+    color: crimson;
+}
+.grupo-2{
+    background-color: #000000;
+    padding: 0px 10px;
+    text-align: center;
+    color: white;
+}
+.grupo-2 small{
+    font-size: 15px;
+}

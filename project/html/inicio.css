@@ -1,20 +1,14 @@
 * {
-    background-color: rgb(177, 202, 255);
     margin: 0;
     padding: 0;
     font-family: 'Chakra Petch', sans-serif;
  }
- /*.home {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
- }*/
- 
  .slider-container {
     width: 50%;
     float: left;
     min-width: 400px;
     margin-bottom: 0%;
+    background-color: rgb(251, 255, 0);
  }
  
  h1 {
@@ -23,8 +17,8 @@
     font-size: 2rem;
  }
  .tituloalimento {
-    color: #fff;
-    background-color: rgb(255, 0, 0);
+    color: rgb(251, 255, 0);
+    background-color: rgb(0, 0, 0);
     text-align: center;
     margin-top: 50px;
     font-size: 30px;
@@ -70,6 +64,7 @@
     float: left;
     min-width: 400px;
     margin-bottom: 0%;
+    background-color: rgb(0, 0, 0);
  }
  
  h1 {
@@ -79,8 +74,8 @@
  }
 
  .titulomaquinas {
-    color: #fff;
-    background-color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 255, 0);
     text-align: center;
     margin-top: 50px;
     font-size: 30px;
@@ -121,14 +116,27 @@
 
 }
 
-.boton {
+.boton1 {
     margin-left: 35%;
     display:inline-block;
-    background-color:rgb(255, 0, 0);
-    color: #fff;
+    background-color:rgb(0, 0, 0);
+    color: rgb(251, 255, 0);
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 25px;
   }
+  .boton2 {
+   margin-left: 35%;
+   display:inline-block;
+   background-color:rgb(251, 255, 0);
+   color: rgb(0, 0, 0);
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 25px;
+ }
