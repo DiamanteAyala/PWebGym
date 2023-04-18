@@ -29,7 +29,7 @@
     height: 100%;
 }
 .art1 {
-    background-image: url("../images/PressPlano.jpg");
+    background-image: url("../project/images/PressPlano.jpg");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
@@ -58,7 +58,7 @@
     padding: 10px;
 }
 .art2 {
-    background-image: url("../images/dorsalera.jpg");
+    background-image: url("../project/images/dorsalera.jpg");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
@@ -87,7 +87,7 @@
     padding: 10px;
 }
 .art3 {
-    background-image: url("../images/maquina-gimnasio-polea.jpg");
+    background-image: url("../project/images/maquina-gimnasio-polea.jpg");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
@@ -141,7 +141,7 @@
     height: 100%;
 }
 .art11 {
-    background-image: url("../images/prensa.png");
+    background-image: url("../project/images/prensa.png");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
@@ -170,7 +170,7 @@
     padding: 10px;
 }
 .art21 {
-    background-image: url("../images/hack.jpg");
+    background-image: url("../project/images/hack.jpg");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
@@ -199,7 +199,7 @@
     padding: 10px;
 }
 .art31 {
-    background-image: url("../images/silloncua.jpg");
+    background-image: url("../project/images/silloncua.jpg");
     background-size: cover;
     background-position: center;
     transition: transform 0.2s ease-in-out;
