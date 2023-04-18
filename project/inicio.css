@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Chakra Petch', sans-serif;
+ }
+ .slider-container {
+    width: 50%;
+    float: left;
+    min-width: 400px;
+    margin-bottom: 0%;
+    background-color: rgb(251, 255, 0);
+ }
+ 
+ h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+ }
+ .tituloalimento {
+    color: rgb(251, 255, 0);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+ }
+ .slider {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+ }
+ .slider ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: slide 9s infinite alternate ease-in-out;
+ }
+
+ .slider li {
+    list-style: none;
+    width: 100%;
+ }
+
+ .slider img {
+    width: 100%;
+ }
+
+ @keyframes slide {
+    0% {margin-left: 0%;}
+    30% {margin-left: 0%;}
+
+    33% {margin-left: -100%;}
+    63% {margin-left: -100%;}
+
+    66% {margin-left: -200%;}
+    100% {margin-left: -200%;}
+
+ }
+
+ .slider-container2 {
+    width: 50%;
+    float: left;
+    min-width: 400px;
+    margin-bottom: 0%;
+    background-color: rgb(0, 0, 0);
+ }
+ 
+ h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2rem;
+ }
+
+ .titulomaquinas {
+    color: rgb(0, 0, 0);
+    background-color: rgb(251, 255, 0);
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+ }
+ .slider2 {
+    position: relative;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+ }
+ .slider2 ul {
+    display: flex;
+    padding: 0;
+    width: 300%;
+
+    animation: slide 9s infinite alternate ease-in-out;
+ }
+
+ .slider2 li {
+    list-style: none;
+    width: 100%;
+ }
+
+ .slider2 img {
+    width: 100%;
+ }
+
+ @keyframes slide {
+   0% {margin-left: 0%;}
+   30% {margin-left: 0%;}
+
+   33% {margin-left: -100%;}
+   63% {margin-left: -100%;}
+
+   66% {margin-left: -200%;}
+   100% {margin-left: -200%;}
+
+}
+
+.boton1 {
+    margin-left: 35%;
+    display:inline-block;
+    background-color:rgb(0, 0, 0);
+    color: rgb(251, 255, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  .boton2 {
+   margin-left: 35%;
+   display:inline-block;
+   background-color:rgb(251, 255, 0);
+   color: rgb(0, 0, 0);
+   padding: 10px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 25px;
+ }
